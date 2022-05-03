@@ -1,0 +1,61 @@
+<style>
+/* Heading */
+*{
+  margin: 0auto 0auto;
+  padding: 0;
+}
+h1{
+  margin: 0;
+  padding: 0px;
+}
+.back{
+  margin: 0;
+  padding: 0;
+  background-image:linear-gradient(rgba(0, 0, 0, .1),rgba(0, 0, 0, .1)),url(bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+/* 3*3 grid */
+#b1,#b2,#b3,#b4,#b5,#b6,#b7,#b8,#b9{
+  width: 80px;
+  height: 80px;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 30px;
+  text-align: center;
+}
+/* reset button */
+#but{
+  box-sizing: border-box;
+  width: 100px;
+  height: 40px;
+  border: 1px solid dodgerblue;
+  margin: auto;
+  border-radius: 4px;
+  font-family: Verdana,Geneva,Tahoma,sans-serif;
+  background-color: dodgerblue;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+#print{
+  font-family: Verdana,Geneva,Tahoma,sans-serif;
+  color: #ff0067;
+  font-size: 20px;
+}
+#main{
+  text-align: center;
+}
+#ins{
+  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272,
+   -2px 4px 1px #767474,-3px 6px 1px #787777;
+  font-family: Verdana,Geneva,Tahoma,sans-serif;
+  color: #ff0067;
+  font-size: 25px;
+
+}
+
+</style>

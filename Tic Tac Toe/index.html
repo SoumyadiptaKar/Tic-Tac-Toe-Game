@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- include css file -->
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="java.js">
+    </script>
+    <style media="screen">
+      h1{
+        font-family: calibri;
+        font-size:60px;
+        color: green;
+      }
+    </style>
+    <title>SAMMY'S TIC TAC TOE</title>
+  </head>
+  <body>
+    <div class="back">
+    <div class="header" align="center">
+      <h1>
+        <img src="pic1.jpg" height="100px">
+        TIC TAC TOE
+        <img src="pic2.png" height="100px">
+      </h1>
+      <!-- Game Instruction -->
+      <p id="ins"> Tap the box to start the game. Enjoy!!
+        <br> First player : <b>Player X
+      </b>
+      <br> And
+      <br>Second player : <b>Player 0</b>
+    </p>
+    <br><br>
+  </div>
+    <!-- 3*3 grid for box -->
+<div id="main">
+    <input type="text" id="b1" onclick=
+    "myfunc_3(); myfunc();" readonly>
+    <input type="text" id="b2" onclick=
+    "myfunc_4();myfunc();" readonly>
+    <input type="text" id="b3" onclick=
+    "myfunc_5();myfunc();" readonly>
+    <br><br>
+    <input type="text" id="b4" onclick=
+    "myfunc_6();myfunc();" readonly>
+    <input type="text" id="b5" onclick=
+    "myfunc_7();myfunc();" readonly>
+    <input type="text" id="b6" onclick=
+    "myfunc_8();myfunc();" readonly>
+    <br><br>
+    <input type="text" id="b7" onclick=
+    "myfunc_9();myfunc();" readonly>
+    <input type="text" id="b8" onclick=
+    "myfunc_10();myfunc();" readonly>
+    <input type="text" id="b9" onclick=
+    "myfunc_11();myfunc();" readonly>
+    <!-- end of grid -->
+    <br><br><br>
+    <!-- button to reset the game -->
+    <button type="button" id="but" onclick="myfunction_2()">RESET</button>
+    <br><br>
+    <!-- space to show player turn -->
+    <p id="print"></p>
+</div>
+    </div>
+  </body>
+</html>
